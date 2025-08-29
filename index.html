@@ -12,13 +12,40 @@
 </head>
 <body>
     <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active"  href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link"  href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link"  href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link"  href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
         <div class="header__brand">
             <img class="brand__logo" src="assets/images/logo-branca-sf.png" alt="Logo Alessandro D’Angelo">
         </div>
+        <div class="header__toggle">
+            <i id= "toggleTheme" class="bi bi-sun"></i>
+        </div>
         
-        <i id= "toggleTheme" class="bi bi-sun"></i>
     </header>
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
                 <a class="menu__link active"  href="#home">
